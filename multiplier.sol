@@ -24,7 +24,7 @@ contract Multiplier {
 	// Function that multiplies its argument to the state variable.
 	function multiply(uint value) public checkOwnerAndAccept {
     // Check that input value satisfies task condition
-    require(value>=0&&value<=10, 23, "Invalid value!");
+    require(value>=1&&value<=10, 23, "Invalid value!");
 		res *= value;
 	}
 }
