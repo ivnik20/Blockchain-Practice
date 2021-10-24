@@ -1,0 +1,66 @@
+{
+	"ABI version": 2,
+	"version": "2.1",
+	"header": ["time", "expire"],
+	"functions": [
+		{
+			"name": "constructor",
+			"inputs": [
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "createToken",
+			"inputs": [
+				{"name":"name","type":"string"},
+				{"name":"author","type":"string"},
+				{"name":"genre","type":"string"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "GetTokenOwner",
+			"inputs": [
+				{"name":"name","type":"string"}
+			],
+			"outputs": [
+				{"name":"value0","type":"uint256"}
+			]
+		},
+		{
+			"name": "GetTokenInfo",
+			"inputs": [
+				{"name":"name","type":"string"}
+			],
+			"outputs": [
+				{"name":"tokenName","type":"string"},
+				{"name":"author","type":"string"},
+				{"name":"genre","type":"string"},
+				{"name":"value","type":"uint256"},
+				{"name":"isForSale","type":"bool"}
+			]
+		},
+		{
+			"name": "PutUpForSale",
+			"inputs": [
+				{"name":"name","type":"string"},
+				{"name":"value","type":"uint256"}
+			],
+			"outputs": [
+			]
+		}
+	],
+	"data": [
+	],
+	"events": [
+	],
+	"fields": [
+		{"name":"_pubkey","type":"uint256"},
+		{"name":"_timestamp","type":"uint64"},
+		{"name":"_constructorFlag","type":"bool"},
+		{"name":"fromBookToOwner","type":"optional(cell)"},
+		{"name":"fromNameToToken","type":"optional(cell)"}
+	]
+}
