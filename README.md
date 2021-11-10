@@ -6,3 +6,4 @@
 4.1 - [Wallet](https://github.com/ivnik20/Blockchain-Practice/tree/main/Wallet) <br />
 4.2 - [Token](https://github.com/ivnik20/Blockchain-Practice/tree/main/BookTokens) <br />
 5 - [War Game](https://github.com/ivnik20/Blockchain-Practice/tree/main/WarGame) <br />
+6 - [Shop List DeBot](https://github.com/ivnik20/Blockchain-Practice/tree/main/DeBots) <br />
